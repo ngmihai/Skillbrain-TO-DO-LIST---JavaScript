@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+
+  background-color: #3ea5c7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+
+  padding: 16px;
+  width: 50%;
+  margin: 0 auto;
+
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px 0px #000000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  height: 50px;
+  flex-basis: 84%;
+
+  font-size: larger;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  height: 50px;
+  flex-basis: 15%;
+
+  background-color: white;
+
+  font-size: larger;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #08c0fc;
+  color: white;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.basicCard {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.list > li {
+  font-size: larger;
+  margin: 8px 0;
+}
